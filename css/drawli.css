@@ -1,0 +1,70 @@
+/**
+ * Draw.li Css
+ */
+
+body {
+  padding : 0px;
+  margin : 0px;
+  background-color : #EFF1F2;
+  width : 100%;
+}
+
+/* reset */
+div {
+  padding : 0px;
+  margin : 0px;
+}
+
+.header {
+  background-color : #d2523e;
+  height : 44px;
+  overflow : hidden;
+  width : 100%;
+}
+
+  .header-title {
+    color  : #EFF1F2;
+    font-family: Helvetica;
+    font-size : 30px;
+    text-align: center;
+    padding-top : 5px;
+  }
+
+.card-holder {
+  padding : 10px;
+}
+
+.card {
+  border-radius : 2px;
+  border : 1px solid #E6E9EB;
+  background-color : #F5F9FB;
+
+  padding : 10px;
+}
+
+  .card-title {
+    font-size : 25px;
+    font-family : Helvetica;
+  }
+
+  .card-image {
+    background-color : #E4EAEC;
+    width : 100%;
+    border-radius: 2px;
+    border : 0px solid #000;
+  }
+
+  .card-participate {
+    background-color : #d2523e;
+    height : 44px;
+    border-radius : 2px;
+    margin-bottom : 10px;
+  }
+
+    .card-participate-title {
+       color  : #EFF1F2;
+      font-family: Helvetica;
+      font-size : 30px;
+      text-align: center;
+      padding-top : 5px;
+    }
