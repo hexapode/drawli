@@ -31,7 +31,7 @@ div {
   }
 
 .card-holder {
-  padding : 10px;
+  padding : 0px;
 }
 
 .card {
@@ -68,3 +68,62 @@ div {
       text-align: center;
       padding-top : 5px;
     }
+
+.hide {
+  display : none;
+}
+
+
+/**
+ * Editor
+ */
+.navigation-header{
+  height : 44px;
+  overflow : hidden;
+  margin-top : 2%;
+  margin-bottom : 2%;
+}
+
+.navigation-button-back {
+  float : left;
+  height : 44px;
+  background-color: #d2523e;
+  width  : 47%;
+  margin-left : 2%;
+  border-radius:  22px 2px 2px 22px;
+}
+  
+  .navigation-button-back-title {
+    color  : #EFF1F2;
+    font-family: Helvetica;
+    font-size : 30px;
+    text-align: center;
+    padding-top : 5px;
+  }
+
+.navigation-button-next {
+  float : right;
+  height : 44px;
+  background-color: #86b978;
+  width  : 47%;
+  margin-right : 2%; 
+  border-radius:  2px 22px 22px 2px;
+}
+
+  .navigation-button-next-title {
+    color  : #EFF1F2;
+    font-family: Helvetica;
+    font-size : 30px;
+    text-align: center;
+    padding-top : 5px;
+  }
+
+.main-canvas {
+  width : 100%;
+}
+
+#canvas-wrapper {
+  position : absolute;
+  top : 0px;
+  left : 0px;
+}
